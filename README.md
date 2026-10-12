@@ -22,7 +22,7 @@ Site vitrine statique en français (HTML + CSS + JavaScript, sans dépendance), 
 
 ## Pages
 
-Accueil · Le salon (Recrutement) · Réalisations (tressage, tissage, natté, coiffure) · Prestations (coiffure, soins capillaires, manucure & pédicure, produits de beauté) · Actualités · Contact
+Accueil · Le salon (Recrutement) · Réalisations (tressage, tissage, natté, coiffure, homme & enfant) · Prestations (coiffure, coiffure homme & enfant, soins capillaires, manucure & pédicure, produits de beauté) · Actualités · Contact
 
 Pour ajouter une page « L’équipe », remplissez la liste `team` dans `site.json` (nom, rôle, photo).
 

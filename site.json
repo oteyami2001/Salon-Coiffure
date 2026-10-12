@@ -10,7 +10,7 @@
       "soins",
       "confiance"
     ],
-    "description": "Jennis Coiffure, salon de coiffure dame à Abidjan : tressage, natté, tissage, coiffure de mariage, soins capillaires, manucure, pédicure et produits de beauté.",
+    "description": "Jennis Coiffure, salon de coiffure à Abidjan : coiffure dame (tressage, natté, tissage, mariage), coiffure homme & enfant, soins capillaires, manucure, pédicure et produits de beauté.",
     "founded": ""
   },
   "colors": {
@@ -33,12 +33,20 @@
       {
         "image": "images/hero-salon.webp",
         "caption": "Votre beauté, notre passion"
+      },
+      {
+        "image": "images/hero-homme.webp",
+        "caption": "Coiffure homme · style, élégance, confiance"
+      },
+      {
+        "image": "images/hero-enfant.webp",
+        "caption": "Coiffure enfant · confort, style, sourire"
       }
     ]
   },
   "home": {
     "intro_heading": "révélez votre beauté avec jennis coiffure",
-    "intro": "Les professionnelles de la beauté vous attendent à Abidjan. Tressage, natté, tissage, coiffures de mariage, soins capillaires, manucure et pédicure : notre équipe prend soin de vous dans un cadre moderne et élégant.",
+    "intro": "Les professionnelles de la beauté vous attendent à Abidjan. Tressage, natté, tissage, coiffures de mariage, coiffure homme & enfant, soins capillaires, manucure et pédicure : notre équipe prend soin de vous dans un cadre moderne et élégant.",
     "cta_heading": "prenez rendez-vous sur whatsapp",
     "cta_button": "PRENDRE RENDEZ-VOUS"
   },
@@ -46,6 +54,7 @@
     "intro": "Jennis Coiffure est un salon de coiffure dame à Abidjan, spécialiste de la coiffure africaine et des soins de beauté.",
     "body": [
       "Dans un cadre moderne et élégant, nos professionnelles réalisent tressages, nattés, tissages, coiffures simples et coiffures de mariage, avec des produits de qualité et un matériel professionnel.",
+      "Messieurs et enfants sont aussi les bienvenus : coupes tendance, dégradés, motifs, barbe soignée et soins capillaires au masculin, dans le confort et la sécurité.",
       "Nous proposons aussi des soins capillaires, la manucure et la pédicure, ainsi qu’une sélection de produits de beauté : soins capillaires, produits de toilette, parfums hommes & femmes, sérums visage et maquillage.",
       "Ambiance chaleureuse, hygiène irréprochable et confort assuré : chaque cliente repart sublimée."
     ],
@@ -226,6 +235,38 @@
           "image": "images/coiffure-6.webp"
         }
       ]
+    },
+    {
+      "slug": "homme-enfant",
+      "title": "homme & enfant",
+      "image": "images/homme-3.webp",
+      "intro": "Coupes tendance, dégradés, motifs et barbe soignée pour les hommes ; coupes adaptées, confortables et stylées pour les enfants.",
+      "projects": [
+        {
+          "title": "Dégradé & coupe tendance",
+          "image": "images/homme-1.webp"
+        },
+        {
+          "title": "Coupe avec motif",
+          "image": "images/homme-2.webp"
+        },
+        {
+          "title": "Barbe impeccable & trait",
+          "image": "images/homme-3.webp"
+        },
+        {
+          "title": "Coupe enfant & trait",
+          "image": "images/enfant-1.webp"
+        },
+        {
+          "title": "Coupe enfant moderne",
+          "image": "images/enfant-2.webp"
+        },
+        {
+          "title": "Petits princes, grands styles",
+          "image": "images/enfant-3.webp"
+        }
+      ]
     }
   ],
   "services_intro": "Coiffure, soins capillaires, manucure, pédicure et produits de beauté : tout pour votre beauté au quotidien.",
@@ -243,6 +284,22 @@
         "Coiffure simple",
         "Coiffure mariage",
         "Coloration",
+        "Conseils personnalisés"
+      ]
+    },
+    {
+      "slug": "homme-enfant",
+      "title": "coiffure homme & enfant",
+      "image": "images/service-homme-enfant.webp",
+      "intro": "L’art du style masculin, et des coupes qui révèlent la personnalité des plus petits.",
+      "points": [
+        "Coupe tendance & coupe moderne",
+        "Dégradés & motifs",
+        "Barbe soignée",
+        "Soins capillaires & lavage profond",
+        "Hydratation, détente & fraîcheur",
+        "Coupe enfant au style adapté",
+        "Produits doux pour les enfants",
         "Conseils personnalisés"
       ]
     },
