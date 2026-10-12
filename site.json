@@ -1,0 +1,134 @@
+{
+  "brand": {
+    "name": "SALON COIFFURE",
+    "short": "SALON COIFFURE",
+    "logo": "",
+    "logo_white": "",
+    "tagline": ["à votre écoute", "coiffer avec passion", "révéler votre style"],
+    "description": "Salon de coiffure femme, homme et enfant : coupes, colorations, soins et coiffures d’événement.",
+    "founded": "2015"
+  },
+  "colors": {
+    "ink": "#1f1b1a",
+    "paper": "#ffffff",
+    "muted": "#7d726c",
+    "line": "#ebe4df",
+    "accent": "#b5776b",
+    "footer_bg": "#1f1b1a",
+    "footer_ink": "#ddd5cf"
+  },
+  "fonts": {
+    "display": "Jost",
+    "body": "Source Serif 4",
+    "google_fonts_query": "family=Jost:wght@300;400;500;600&family=Source+Serif+4:wght@300;400;600"
+  },
+  "hero": {
+    "slides": [
+      { "image": "", "caption": "Balayage blond lumineux" },
+      { "image": "", "caption": "Coupe homme & taille de barbe" },
+      { "image": "", "caption": "Chignon de mariée" }
+    ]
+  },
+  "home": {
+    "intro_heading": "la beauté de vos cheveux, notre passion",
+    "intro": "Notre équipe de coiffeurs et coloristes vous accueille dans un lieu chaleureux pour sublimer votre style, du conseil personnalisé à la dernière touche de brushing.",
+    "cta_heading": "envie de changement ?",
+    "cta_button": "PRENDRE RENDEZ-VOUS"
+  },
+  "about": {
+    "intro": "Depuis 2015, notre salon accompagne femmes, hommes et enfants avec exigence, créativité et bienveillance.",
+    "body": [
+      "Chaque rendez-vous commence par un diagnostic : nature du cheveu, morphologie du visage, mode de vie. Nous vous conseillons la coupe et la couleur qui vous ressemblent.",
+      "Nous travaillons avec des produits professionnels respectueux du cheveu et de l’environnement, et nous formons notre équipe toute l’année aux dernières techniques."
+    ],
+    "image": "",
+    "values": [
+      { "title": "écouter", "body": "Vos envies et vos habitudes guident chacune de nos propositions." },
+      { "title": "créer", "body": "Coupes, couleurs et coiffages pensés sur mesure, dans l’air du temps." },
+      { "title": "prendre soin", "body": "Des soins et des produits qui respectent la santé de vos cheveux." }
+    ]
+  },
+  "team_intro": "Les talents qui prennent soin de vos cheveux.",
+  "team": [
+    { "name": "Camille Martin", "role": "Fondatrice & coiffeuse", "photo": "", "bio": "" },
+    { "name": "Léa Dubois", "role": "Coloriste experte", "photo": "", "bio": "" },
+    { "name": "Hugo Bernard", "role": "Barbier", "photo": "", "bio": "" },
+    { "name": "Sarah Petit", "role": "Coiffeuse styliste", "photo": "", "bio": "" }
+  ],
+  "careers": {
+    "intro": "Vous êtes passionné·e de coiffure et aimez le contact client ? Rejoignez notre équipe.",
+    "benefits": ["Formations techniques régulières", "Ambiance d’équipe bienveillante", "Plannings équilibrés", "Accueil d’apprenti·e·s"],
+    "openings": [
+      { "title": "Coiffeur·se confirmé·e", "location": "Salon", "type": "CDI", "link": "" },
+      { "title": "Apprenti·e CAP coiffure", "location": "Salon", "type": "Alternance", "link": "" }
+    ]
+  },
+  "projects_intro": "Un aperçu de notre savoir-faire : coupes, couleurs et coiffures réalisées au salon.",
+  "markets": [
+    {
+      "slug": "femme",
+      "title": "femme",
+      "image": "",
+      "intro": "Coupes courtes, carrés, dégradés et longueurs travaillées pour sublimer chaque visage.",
+      "projects": [
+        { "title": "Carré flou dégradé", "location": "Coupe & brushing", "year": "", "image": "", "summary": "" },
+        { "title": "Pixie texturé", "location": "Coupe courte", "year": "", "image": "", "summary": "" },
+        { "title": "Longueurs ondulées", "location": "Coupe & wavy", "year": "", "image": "", "summary": "" }
+      ]
+    },
+    {
+      "slug": "homme",
+      "title": "homme",
+      "image": "",
+      "intro": "Coupes classiques ou tendance, dégradés précis et entretien de la barbe.",
+      "projects": [
+        { "title": "Dégradé américain", "location": "Coupe tondeuse & ciseaux", "year": "", "image": "", "summary": "" },
+        { "title": "Barbe sculptée", "location": "Taille à l’ancienne", "year": "", "image": "", "summary": "" }
+      ]
+    },
+    {
+      "slug": "couleur",
+      "title": "couleur",
+      "image": "",
+      "intro": "Balayages, mèches, colorations et patines pour une couleur lumineuse et naturelle.",
+      "projects": [
+        { "title": "Balayage blond miel", "location": "Balayage à main levée", "year": "", "image": "", "summary": "" },
+        { "title": "Brun chocolat glossy", "location": "Coloration & gloss", "year": "", "image": "", "summary": "" },
+        { "title": "Cuivré intense", "location": "Coloration", "year": "", "image": "", "summary": "" }
+      ]
+    },
+    {
+      "slug": "evenements",
+      "title": "événements",
+      "image": "",
+      "intro": "Chignons, attaches et coiffures de mariage pour vos plus beaux jours.",
+      "projects": [
+        { "title": "Chignon bohème", "location": "Mariage", "year": "", "image": "", "summary": "" },
+        { "title": "Tresse couronne", "location": "Cérémonie", "year": "", "image": "", "summary": "" }
+      ]
+    }
+  ],
+  "services_intro": "Des prestations pour toute la famille, réalisées avec des produits professionnels.",
+  "services": [
+    { "slug": "coupe-brushing", "title": "coupe & brushing", "image": "", "intro": "Shampoing, diagnostic, coupe et coiffage sur mesure.", "points": ["Coupe femme — à partir de 45 €", "Coupe homme — à partir de 25 €", "Coupe enfant — à partir de 18 €", "Brushing — à partir de 30 €"] },
+    { "slug": "coloration", "title": "coloration", "image": "", "intro": "Une couleur qui vous ressemble, du naturel à l’audacieux.", "points": ["Coloration racines — à partir de 45 €", "Balayage — à partir de 85 €", "Mèches — à partir de 70 €", "Patine / gloss — à partir de 25 €"] },
+    { "slug": "soins", "title": "soins", "image": "", "intro": "Des rituels pour nourrir, réparer et faire briller vos cheveux.", "points": ["Soin profond nutrition", "Soin kératine lissant", "Massage crânien relaxant"] },
+    { "slug": "barbier", "title": "barbier", "image": "", "intro": "Taille, rasage et entretien de la barbe dans les règles de l’art.", "points": ["Taille de barbe — à partir de 15 €", "Rasage à l’ancienne — à partir de 25 €", "Forfait coupe + barbe — à partir de 38 €"] }
+  ],
+  "news_intro": "Les nouvelles du salon.",
+  "news": [
+    { "title": "Nouveaux horaires d’ouverture", "date": "2026-09-01", "summary": "Le salon vous accueille désormais en nocturne le jeudi jusqu’à 21 h.", "image": "", "link": "" },
+    { "title": "Les tendances couleur de l’automne", "date": "2026-09-20", "summary": "Châtains caramel, roux cuivrés et blonds beige : découvrez les teintes de la saison.", "image": "", "link": "" },
+    { "title": "Offre spéciale mariage", "date": "2026-10-05", "summary": "Essai coiffure offert pour toute réservation de coiffure de mariée.", "image": "", "link": "" }
+  ],
+  "locations": [
+    { "city": "le salon", "lines": ["12 rue de l’Exemple", "75000 Votre Ville", "Mar–sam : 9 h – 19 h"], "phone": "01 23 45 67 89", "email": "contact@exemple.fr" }
+  ],
+  "social": { "facebook": "", "instagram": "", "linkedin": "" },
+  "contact": {
+    "intro": "Pour prendre rendez-vous ou poser une question, appelez-nous ou écrivez-nous : nous vous répondons sous 24 h.",
+    "email": "contact@exemple.fr",
+    "form_action": ""
+  },
+  "footer": { "credit": "" }
+}
