@@ -37,4 +37,18 @@
     });
     start();
   }
+
+  // Formulaire de contact -> message WhatsApp pré-rempli
+  var form = document.querySelector('form[data-whatsapp]');
+  if (form) {
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var lines = [form.getAttribute('data-intro') || ''];
+      Array.prototype.forEach.call(form.elements, function (el) {
+        if (el.name && el.value.trim()) lines.push(el.name + ' : ' + el.value.trim());
+      });
+      var url = form.getAttribute('data-whatsapp') + '?text=' + encodeURIComponent(lines.filter(Boolean).join('\n'));
+      window.open(url, '_blank', 'noopener');
+    });
+  }
 })();

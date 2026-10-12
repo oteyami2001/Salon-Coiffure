@@ -1,21 +1,26 @@
 {
   "brand": {
-    "name": "SALON COIFFURE",
-    "short": "SALON COIFFURE",
-    "logo": "",
-    "logo_white": "",
-    "tagline": ["à votre écoute", "coiffer avec passion", "révéler votre style"],
-    "description": "Salon de coiffure femme, homme et enfant : coupes, colorations, soins et coiffures d’événement.",
-    "founded": "2015"
+    "name": "JENNIS COIFFURE",
+    "short": "JENNIS COIFFURE",
+    "logo": "images/logo.png",
+    "logo_white": "images/logo.png",
+    "favicon": "images/favicon.png",
+    "tagline": [
+      "beauté",
+      "soins",
+      "confiance"
+    ],
+    "description": "Jennis Coiffure, salon de coiffure dame à Abidjan : tressage, natté, tissage, coiffure de mariage, soins capillaires, manucure, pédicure et produits de beauté.",
+    "founded": ""
   },
   "colors": {
-    "ink": "#1f1b1a",
-    "paper": "#ffffff",
-    "muted": "#7d726c",
-    "line": "#ebe4df",
-    "accent": "#b5776b",
-    "footer_bg": "#1f1b1a",
-    "footer_ink": "#ddd5cf"
+    "ink": "#2a1410",
+    "paper": "#fffaf3",
+    "muted": "#7b5e52",
+    "line": "#ecdcc8",
+    "accent": "#9b3b1f",
+    "footer_bg": "#4f180d",
+    "footer_ink": "#f1dcc0"
   },
   "fonts": {
     "display": "Jost",
@@ -23,112 +28,313 @@
     "google_fonts_query": "family=Jost:wght@300;400;500;600&family=Source+Serif+4:wght@300;400;600"
   },
   "hero": {
+    "show_mark": false,
     "slides": [
-      { "image": "", "caption": "Balayage blond lumineux" },
-      { "image": "", "caption": "Coupe homme & taille de barbe" },
-      { "image": "", "caption": "Chignon de mariée" }
+      {
+        "image": "images/hero-salon.webp",
+        "caption": "Votre beauté, notre passion"
+      }
     ]
   },
   "home": {
-    "intro_heading": "la beauté de vos cheveux, notre passion",
-    "intro": "Notre équipe de coiffeurs et coloristes vous accueille dans un lieu chaleureux pour sublimer votre style, du conseil personnalisé à la dernière touche de brushing.",
-    "cta_heading": "envie de changement ?",
+    "intro_heading": "révélez votre beauté avec jennis coiffure",
+    "intro": "Les professionnelles de la beauté vous attendent à Abidjan. Tressage, natté, tissage, coiffures de mariage, soins capillaires, manucure et pédicure : notre équipe prend soin de vous dans un cadre moderne et élégant.",
+    "cta_heading": "prenez rendez-vous sur whatsapp",
     "cta_button": "PRENDRE RENDEZ-VOUS"
   },
   "about": {
-    "intro": "Depuis 2015, notre salon accompagne femmes, hommes et enfants avec exigence, créativité et bienveillance.",
+    "intro": "Jennis Coiffure est un salon de coiffure dame à Abidjan, spécialiste de la coiffure africaine et des soins de beauté.",
     "body": [
-      "Chaque rendez-vous commence par un diagnostic : nature du cheveu, morphologie du visage, mode de vie. Nous vous conseillons la coupe et la couleur qui vous ressemblent.",
-      "Nous travaillons avec des produits professionnels respectueux du cheveu et de l’environnement, et nous formons notre équipe toute l’année aux dernières techniques."
+      "Dans un cadre moderne et élégant, nos professionnelles réalisent tressages, nattés, tissages, coiffures simples et coiffures de mariage, avec des produits de qualité et un matériel professionnel.",
+      "Nous proposons aussi des soins capillaires, la manucure et la pédicure, ainsi qu’une sélection de produits de beauté : soins capillaires, produits de toilette, parfums hommes & femmes, sérums visage et maquillage.",
+      "Ambiance chaleureuse, hygiène irréprochable et confort assuré : chaque cliente repart sublimée."
     ],
-    "image": "",
+    "image": "images/salon-facade.webp",
     "values": [
-      { "title": "écouter", "body": "Vos envies et vos habitudes guident chacune de nos propositions." },
-      { "title": "créer", "body": "Coupes, couleurs et coiffages pensés sur mesure, dans l’air du temps." },
-      { "title": "prendre soin", "body": "Des soins et des produits qui respectent la santé de vos cheveux." }
+      {
+        "title": "expertise",
+        "body": "Des coiffeuses professionnelles formées à toutes les techniques de coiffure africaine."
+      },
+      {
+        "title": "produits de qualité",
+        "body": "Des soins et produits sélectionnés pour nourrir, réparer et faire briller vos cheveux."
+      },
+      {
+        "title": "clientèle fidèle",
+        "body": "Des clientes qui nous font confiance et reviennent pour le résultat et l’accueil."
+      },
+      {
+        "title": "résultat garanti",
+        "body": "Un travail soigné, des conseils personnalisés et un résultat qui vous ressemble."
+      }
     ]
   },
-  "team_intro": "Les talents qui prennent soin de vos cheveux.",
-  "team": [
-    { "name": "Camille Martin", "role": "Fondatrice & coiffeuse", "photo": "", "bio": "" },
-    { "name": "Léa Dubois", "role": "Coloriste experte", "photo": "", "bio": "" },
-    { "name": "Hugo Bernard", "role": "Barbier", "photo": "", "bio": "" },
-    { "name": "Sarah Petit", "role": "Coiffeuse styliste", "photo": "", "bio": "" }
-  ],
+  "team": [],
   "careers": {
-    "intro": "Vous êtes passionné·e de coiffure et aimez le contact client ? Rejoignez notre équipe.",
-    "benefits": ["Formations techniques régulières", "Ambiance d’équipe bienveillante", "Plannings équilibrés", "Accueil d’apprenti·e·s"],
+    "intro": "Jennis Coiffure recrute à Abidjan ! Toute personne intéressée peut nous contacter par WhatsApp.",
+    "image": "images/recrutement.webp",
+    "benefits": [
+      "Un cadre moderne et élégant",
+      "Du matériel professionnel",
+      "Une clientèle fidèle",
+      "Une équipe de passionnées"
+    ],
     "openings": [
-      { "title": "Coiffeur·se confirmé·e", "location": "Salon", "type": "CDI", "link": "" },
-      { "title": "Apprenti·e CAP coiffure", "location": "Salon", "type": "Alternance", "link": "" }
+      {
+        "title": "2 coiffeuses professionnelles (dames)",
+        "location": "Abidjan",
+        "details": "Tissage, natté, tressage, coiffure simple, coiffure mariage."
+      },
+      {
+        "title": "1 professionnel(le) pédicure & manucure",
+        "location": "Abidjan",
+        "details": "Manucure, pédicure, pose de vernis, soins des ongles, soins des pieds."
+      },
+      {
+        "title": "1 coiffeur professionnel (hommes et enfants)",
+        "location": "Abidjan",
+        "details": ""
+      }
     ]
   },
-  "projects_intro": "Un aperçu de notre savoir-faire : coupes, couleurs et coiffures réalisées au salon.",
+  "projects_intro": "Découvrez quelques-unes de nos coiffures : tressage, tissage, natté et coiffures d’exception.",
   "markets": [
     {
-      "slug": "femme",
-      "title": "femme",
-      "image": "",
-      "intro": "Coupes courtes, carrés, dégradés et longueurs travaillées pour sublimer chaque visage.",
+      "slug": "tressage",
+      "title": "tressage",
+      "image": "images/tressage-2.webp",
+      "intro": "Box braids, tresses fines, perlées ou relevées en queue de cheval.",
       "projects": [
-        { "title": "Carré flou dégradé", "location": "Coupe & brushing", "year": "", "image": "", "summary": "" },
-        { "title": "Pixie texturé", "location": "Coupe courte", "year": "", "image": "", "summary": "" },
-        { "title": "Longueurs ondulées", "location": "Coupe & wavy", "year": "", "image": "", "summary": "" }
+        {
+          "title": "Queue de cheval tressée",
+          "image": "images/tressage-1.webp"
+        },
+        {
+          "title": "Tresses perlées",
+          "image": "images/tressage-2.webp"
+        },
+        {
+          "title": "Tresses fines longues",
+          "image": "images/tressage-3.webp"
+        },
+        {
+          "title": "Nattes & queue haute",
+          "image": "images/tressage-4.webp"
+        },
+        {
+          "title": "Box braids perlées",
+          "image": "images/tressage-5.webp"
+        },
+        {
+          "title": "Tresses longues",
+          "image": "images/tressage-6.webp"
+        }
       ]
     },
     {
-      "slug": "homme",
-      "title": "homme",
-      "image": "",
-      "intro": "Coupes classiques ou tendance, dégradés précis et entretien de la barbe.",
+      "slug": "tissage",
+      "title": "tissage",
+      "image": "images/tissage-4.webp",
+      "intro": "Lisse, ondulé, bouclé ou méché : un tissage naturel et soigné.",
       "projects": [
-        { "title": "Dégradé américain", "location": "Coupe tondeuse & ciseaux", "year": "", "image": "", "summary": "" },
-        { "title": "Barbe sculptée", "location": "Taille à l’ancienne", "year": "", "image": "", "summary": "" }
+        {
+          "title": "Lisse long",
+          "image": "images/tissage-1.webp"
+        },
+        {
+          "title": "Ondulé naturel",
+          "image": "images/tissage-2.webp"
+        },
+        {
+          "title": "Carré lisse",
+          "image": "images/tissage-3.webp"
+        },
+        {
+          "title": "Wavy volume",
+          "image": "images/tissage-4.webp"
+        },
+        {
+          "title": "Lisse méché",
+          "image": "images/tissage-5.webp"
+        },
+        {
+          "title": "Bouclé",
+          "image": "images/tissage-6.webp"
+        }
       ]
     },
     {
-      "slug": "couleur",
-      "title": "couleur",
-      "image": "",
-      "intro": "Balayages, mèches, colorations et patines pour une couleur lumineuse et naturelle.",
+      "slug": "natte",
+      "title": "natté",
+      "image": "images/natte-3.webp",
+      "intro": "Nattes collées, chignons nattés et motifs créatifs.",
       "projects": [
-        { "title": "Balayage blond miel", "location": "Balayage à main levée", "year": "", "image": "", "summary": "" },
-        { "title": "Brun chocolat glossy", "location": "Coloration & gloss", "year": "", "image": "", "summary": "" },
-        { "title": "Cuivré intense", "location": "Coloration", "year": "", "image": "", "summary": "" }
+        {
+          "title": "Nattes collées perlées",
+          "image": "images/natte-1.webp"
+        },
+        {
+          "title": "Nattes latérales",
+          "image": "images/natte-2.webp"
+        },
+        {
+          "title": "Chignon natté",
+          "image": "images/natte-3.webp"
+        },
+        {
+          "title": "Nattes collées arrière",
+          "image": "images/natte-4.webp"
+        },
+        {
+          "title": "Grosses nattes",
+          "image": "images/natte-5.webp"
+        },
+        {
+          "title": "Nattes cœur",
+          "image": "images/natte-6.webp"
+        }
       ]
     },
     {
-      "slug": "evenements",
-      "title": "événements",
-      "image": "",
-      "intro": "Chignons, attaches et coiffures de mariage pour vos plus beaux jours.",
+      "slug": "coiffure",
+      "title": "coiffure",
+      "image": "images/coiffure-3.webp",
+      "intro": "Chignons, coiffures bouclées et coiffures de mariage pour vos grandes occasions.",
       "projects": [
-        { "title": "Chignon bohème", "location": "Mariage", "year": "", "image": "", "summary": "" },
-        { "title": "Tresse couronne", "location": "Cérémonie", "year": "", "image": "", "summary": "" }
+        {
+          "title": "Chignon bas ondulé",
+          "image": "images/coiffure-1.webp"
+        },
+        {
+          "title": "Chignon bouclé",
+          "image": "images/coiffure-2.webp"
+        },
+        {
+          "title": "Chignon sculpté",
+          "image": "images/coiffure-3.webp"
+        },
+        {
+          "title": "Afro puff bouclé",
+          "image": "images/coiffure-4.webp"
+        },
+        {
+          "title": "Demi-attaché bouclé",
+          "image": "images/coiffure-5.webp"
+        },
+        {
+          "title": "Chignon élégant",
+          "image": "images/coiffure-6.webp"
+        }
       ]
     }
   ],
-  "services_intro": "Des prestations pour toute la famille, réalisées avec des produits professionnels.",
+  "services_intro": "Coiffure, soins capillaires, manucure, pédicure et produits de beauté : tout pour votre beauté au quotidien.",
+  "prices_note": "Tarifs : contactez-nous sur WhatsApp au +225 07 88 71 15 92.",
   "services": [
-    { "slug": "coupe-brushing", "title": "coupe & brushing", "image": "", "intro": "Shampoing, diagnostic, coupe et coiffage sur mesure.", "points": ["Coupe femme — à partir de 45 €", "Coupe homme — à partir de 25 €", "Coupe enfant — à partir de 18 €", "Brushing — à partir de 30 €"] },
-    { "slug": "coloration", "title": "coloration", "image": "", "intro": "Une couleur qui vous ressemble, du naturel à l’audacieux.", "points": ["Coloration racines — à partir de 45 €", "Balayage — à partir de 85 €", "Mèches — à partir de 70 €", "Patine / gloss — à partir de 25 €"] },
-    { "slug": "soins", "title": "soins", "image": "", "intro": "Des rituels pour nourrir, réparer et faire briller vos cheveux.", "points": ["Soin profond nutrition", "Soin kératine lissant", "Massage crânien relaxant"] },
-    { "slug": "barbier", "title": "barbier", "image": "", "intro": "Taille, rasage et entretien de la barbe dans les règles de l’art.", "points": ["Taille de barbe — à partir de 15 €", "Rasage à l’ancienne — à partir de 25 €", "Forfait coupe + barbe — à partir de 38 €"] }
+    {
+      "slug": "coiffure",
+      "title": "coiffure",
+      "image": "images/service-coiffure.webp",
+      "intro": "Tressage, natté, tissage, coiffure simple et coiffure de mariage.",
+      "points": [
+        "Tressage",
+        "Natté",
+        "Tissage",
+        "Coiffure simple",
+        "Coiffure mariage",
+        "Coloration",
+        "Conseils personnalisés"
+      ]
+    },
+    {
+      "slug": "soins-capillaires",
+      "title": "soins capillaires",
+      "image": "images/service-soins.webp",
+      "intro": "Des cheveux sains et sublimés : nourrir, réparer, hydrater, faire briller.",
+      "points": [
+        "Soins nourrissants",
+        "Soins réparateurs",
+        "Soins hydratants",
+        "Soins brillance"
+      ]
+    },
+    {
+      "slug": "manucure-pedicure",
+      "title": "manucure & pédicure",
+      "image": "images/service-manucure.webp",
+      "intro": "L’élégance jusqu’au bout des ongles.",
+      "points": [
+        "Manucure",
+        "Pédicure",
+        "Pose de vernis",
+        "Soins des ongles",
+        "Soins des pieds"
+      ]
+    },
+    {
+      "slug": "produits-beaute",
+      "title": "produits de beauté",
+      "image": "images/service-produits.webp",
+      "intro": "Tout ce qu’il vous faut pour votre beauté au quotidien.",
+      "points": [
+        "Soins capillaires",
+        "Produits de toilette",
+        "Eaux de toilette & parfums",
+        "Parfums haut de gamme hommes & femmes",
+        "Sérums visage",
+        "Produits de maquillage",
+        "Accessoires beauté"
+      ]
+    }
   ],
-  "news_intro": "Les nouvelles du salon.",
+  "news_intro": "Les nouvelles de Jennis Coiffure.",
   "news": [
-    { "title": "Nouveaux horaires d’ouverture", "date": "2026-09-01", "summary": "Le salon vous accueille désormais en nocturne le jeudi jusqu’à 21 h.", "image": "", "link": "" },
-    { "title": "Les tendances couleur de l’automne", "date": "2026-09-20", "summary": "Châtains caramel, roux cuivrés et blonds beige : découvrez les teintes de la saison.", "image": "", "link": "" },
-    { "title": "Offre spéciale mariage", "date": "2026-10-05", "summary": "Essai coiffure offert pour toute réservation de coiffure de mariée.", "image": "", "link": "" }
+    {
+      "title": "Nous recrutons !",
+      "date": "",
+      "summary": "2 coiffeuses professionnelles (dames), 1 professionnel(le) pédicure & manucure et 1 coiffeur professionnel (hommes et enfants). Contactez-nous par WhatsApp.",
+      "image": "images/recrutement.webp",
+      "link": "recrutement.html"
+    },
+    {
+      "title": "Parfums haut de gamme hommes & femmes",
+      "date": "",
+      "summary": "Des fragrances d’exception pour toutes les occasions, de grandes marques et un large choix, idéal pour offrir.",
+      "image": "images/service-produits.webp",
+      "link": "services/produits-beaute.html"
+    },
+    {
+      "title": "Le salon professionnel de la coiffure africaine",
+      "date": "2025-07-07",
+      "summary": "Jennis Coiffure était présent au salon professionnel de la coiffure africaine, les 7 et 8 juillet 2025 à Abidjan, de 10 h à 20 h.",
+      "image": "images/hero-salon.webp",
+      "link": ""
+    }
   ],
   "locations": [
-    { "city": "le salon", "lines": ["12 rue de l’Exemple", "75000 Votre Ville", "Mar–sam : 9 h – 19 h"], "phone": "01 23 45 67 89", "email": "contact@exemple.fr" }
+    {
+      "city": "Abidjan",
+      "lines": [
+        "Abidjan, Côte d’Ivoire",
+        "Lundi – samedi : 8 h – 20 h"
+      ],
+      "phone": "+225 07 88 71 15 92",
+      "phone_label": "WhatsApp"
+    }
   ],
-  "social": { "facebook": "", "instagram": "", "linkedin": "" },
+  "social": {
+    "instagram": "https://www.instagram.com/jennis_coiffure/",
+    "whatsapp": "https://wa.me/2250788711592",
+    "facebook": ""
+  },
   "contact": {
-    "intro": "Pour prendre rendez-vous ou poser une question, appelez-nous ou écrivez-nous : nous vous répondons sous 24 h.",
-    "email": "contact@exemple.fr",
+    "intro": "Pour vos rendez-vous et nos tarifs, contactez-nous sur WhatsApp. Remplissez le formulaire : votre message s’ouvrira directement dans WhatsApp.",
+    "email": "",
+    "whatsapp": "+225 07 88 71 15 92",
+    "whatsapp_message": "Bonjour Jennis Coiffure,",
     "form_action": ""
   },
-  "footer": { "credit": "" }
+  "footer": {
+    "credit": "Votre beauté, notre passion !"
+  }
 }

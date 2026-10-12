@@ -130,3 +130,31 @@ input:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
   *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
   .tile:hover img{transform:none}
 }
+
+/* ---- Jennis Coiffure ---- */
+:root{--gold:#c9993f}
+.footer h4{color:var(--gold)}
+.brand img{height:64px}
+.tagline span+span::before{background:var(--gold,#c9993f)}
+.tiles.four{grid-template-columns:repeat(4,1fr)}
+.tiles.four .tile{aspect-ratio:3/4}
+.cards4 .card img{aspect-ratio:4/5}
+.gallery{grid-template-columns:repeat(6,1fr);gap:16px}
+.gallery .card img{aspect-ratio:2/3}
+.gallery h3{font-size:16px}
+.values{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.service-detail img{width:100%;max-width:440px;max-height:560px;object-fit:cover}
+.list-clean li p{margin:4px 0 0;font-size:15px;color:var(--muted)}
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 6px 20px rgba(0,0,0,.25);transition:transform .25s ease}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:30px;height:30px;fill:#fff}
+@media (max-width:900px){
+  .tiles.four{grid-template-columns:repeat(2,1fr)}
+  .gallery{grid-template-columns:repeat(3,1fr)}
+  .brand img{height:52px}
+}
+@media (max-width:600px){
+  .tiles.four,.gallery{grid-template-columns:repeat(2,1fr)}
+}
+@media (prefers-reduced-motion:reduce){.wa-float{transition:none}}
+.footer .loc a{color:var(--gold)}

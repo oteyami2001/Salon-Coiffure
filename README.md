@@ -1,10 +1,13 @@
-# Salon Coiffure — site web
+# Jennis Coiffure — site web
+
+Salon de coiffure dame à Abidjan (Côte d’Ivoire) · WhatsApp +225 07 88 71 15 92
 
 Site vitrine statique en français (HTML + CSS + JavaScript, sans dépendance), généré à partir du modèle « firm-portfolio-site ».
 
 ## Structure
 
 - `site.json` — **tout le contenu du site** (nom, slogan, couleurs, équipe, prestations et tarifs, réalisations, actualités, adresse, horaires, contact).
+- `images/` — logo et photos du salon (découpées depuis les visuels fournis).
 - `generator/` — le générateur (`build.py`) et les fichiers CSS/JS.
 - `docs/` — le site généré, prêt à être publié.
 
@@ -19,11 +22,13 @@ Site vitrine statique en français (HTML + CSS + JavaScript, sans dépendance), 
 
 ## Pages
 
-Accueil · Le salon (L’équipe, Recrutement) · Réalisations (femme, homme, couleur, événements) · Prestations (coupe & brushing, coloration, soins, barbier) · Actualités · Contact
+Accueil · Le salon (Recrutement) · Réalisations (tressage, tissage, natté, coiffure) · Prestations (coiffure, soins capillaires, manucure & pédicure, produits de beauté) · Actualités · Contact
+
+Pour ajouter une page « L’équipe », remplissez la liste `team` dans `site.json` (nom, rôle, photo).
 
 ## Formulaire de contact
 
-Par défaut le formulaire ouvre la messagerie (`mailto:`). Pour recevoir les messages directement, renseignez `contact.form_action` avec une adresse Formspree (ou équivalent).
+Le formulaire ouvre WhatsApp avec un message pré-rempli (nom, téléphone, prestation, message) vers le numéro `contact.whatsapp`. Un bouton WhatsApp flottant est présent sur toutes les pages.
 
 ## Publication (GitHub Pages)
 
